@@ -1,0 +1,49 @@
+format: '%p%s%n&f: %m'
+FormatChat: true
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&7[&aP&7]&r'
+      suffix: '&a '
+    permissions:
+    - simple.fake.permission
+    - another.fake.permission
+    - factions.kit.fullplayer
+    - plots.claim
+    - plots.plot.5
+    - plots.info
+    - plots.auto
+    - plots.comment
+    - plots.rate
+    - plots.inbox
+    - plots.set.owner
+    - plots.set.desc
+    - plots.grant
+    - plots.set.alias
+    - plots.inbox.read.owner
+    - plots.kick
+    - plots.list
+    - plots.near
+    - plots.add
+    - plots.remove
+    - plots.delete
+    - plots.remove
+    - plots.deny
+    - plots.visit
+    - leettp.command.home
+    - leettp.command.homes
+    - leettp.command.sethome
+    - leettp.command.delhome
+    - leettp.command.spawn
+    - leettp.command.tptoggle
+    - leettp.command.tpa
+    - leettp.command.tpo
+    - leettp.command.tpaccept
+    - leettp.command.tpdeny
+    - leettp.command.tpohere
+    - leettp.command.tpahere
+    - plots.visit.owned
+    - plots.visit.*
+    - plots.clear
+users: {}
