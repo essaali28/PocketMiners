@@ -47,3 +47,13 @@ groups:
     - plots.visit.*
     - plots.clear
 users: {}
+  MOD:
+    options:
+      default: false
+      prefix: '&7[&aMOD&7]&r'
+      suffix: '&a '
+    permissions:
+    - simple.fake.permission
+    - another.fake.permission
+users: {}
+
